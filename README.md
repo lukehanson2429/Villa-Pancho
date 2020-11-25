@@ -1,45 +1,31 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Villa Pancho - Milestone Project 1
 
-Welcome lukehanson2429,
+## Project Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The Project goal is to create a clear, concise and user friendly website for Villa Pancho, a mexican style bar & restaurant 
+in watford. The Client a local entrepeneur would like the site to have a distinctive brand image. The Look of the brand must 
+have a professional and credible image and it is hoped that the concept can be rolled out and replicated at other locations.
 
-## Gitpod Reminders
+### Project Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* The Website must be fully responsive on all devices.
+* To interest the user on what Pancho Villa has to offer.
+* Clear design presentation which allows the the user to navigate easily.
+* To maximise future maintainability through documentation, code structure and organisation.
+* The target users will range from young adults, families and groups for business or private entertaining or functions.
 
-`python3 -m http.server`
+### User Stories 
 
-A blue button should appear to click: *Make Public*,
+* As a new user I want to be able to understand the site layout clearly to navigate to my final destination.
+* As a new user I want to know more about the restaurant, what they are offering and why I would want to visit.
+* As a new user I want to know more about the food and drinks menu to see whether the food/drinks suits my taste and to see the cost.
+* As a new user I want to be able to contact the restaurant should i would like to make a reservation.
+* As a new user I"m interested in seeing reviews to see other customers thoughts on the restaurant/bar.
+* As a new user I want to know if there are any offers on at the moment.
 
-Another blue button should appear to click: *Open Browser*.
+* As an existing user I would like to get in contact to make a reservation.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

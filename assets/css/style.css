@@ -6,3 +6,12 @@
     font-family: "Frijole", sans-serif;
     font-size: 40px;
 }
+
+.navbar .navbar-brand {
+    color: #D87B38;
+}
+
+ .nav-link {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+}

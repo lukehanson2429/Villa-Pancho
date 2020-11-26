@@ -11,6 +11,10 @@
     color: #D87B38;
 }
 
+.navbar-custom {
+    background-color: #396DDE;
+}
+
  .nav-link {
     font-family: "Playfair Display", sans-serif;
     font-weight: bold;

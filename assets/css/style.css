@@ -6,6 +6,9 @@
     font-family: "Frijole", sans-serif;
     font-size: 40px;
 }
+.navbar .navbar-brand:hover {
+    color: #D87B38;
+}
 
 .navbar .navbar-brand {
     color: #D87B38;

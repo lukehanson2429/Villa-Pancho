@@ -29,7 +29,7 @@
 .calloutimage-container {
     height: 100vh;
 
-    background: url('') no-repeat center center fixed;
+    background: url('../images/mexican-food.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,3 +41,18 @@
 
     position: relative;
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+
+}
+

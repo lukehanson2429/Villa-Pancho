@@ -54,6 +54,9 @@
 .jumbotron {
     background-color: transparent;
     font-family: "Playfair Display", sans-serif;
+    letter-spacing: 0.05em;
+    color: #D87B38;
 }
+
 
 

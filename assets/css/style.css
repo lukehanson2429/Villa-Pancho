@@ -63,7 +63,7 @@
     font-weight: lighter;
 }
 
-/*---Welcome---*/
+/*---Welcome & Main Content---*/
 
 .welcome {
     padding: 40px;
@@ -82,4 +82,6 @@ letter-spacing: 0.05em;
     font-family: "Playfair Display", sans-serif;
     letter-spacing: 0.05em;
     padding-bottom: 5px;
+    font-weight: 
 }
+

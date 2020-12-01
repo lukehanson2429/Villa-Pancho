@@ -68,3 +68,8 @@
 .welcome {
     padding: 40px;
 }
+
+.sub-headings {
+    font-family: "Playfair Display", sans-serif;
+    letter-spacing: 0.05em;
+}

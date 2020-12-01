@@ -69,6 +69,15 @@
     padding: 40px;
 }
 
+.paragraph-content {
+    font-family: Crimson Text, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+}
+
 .sub-headings {
     font-family: "Playfair Display", sans-serif;
     letter-spacing: 0.05em;

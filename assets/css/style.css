@@ -93,6 +93,10 @@
     color: #ff6105;
 }
 
+.contact-icon:hover {
+    color: #000000;
+}
+
 .offers-img img { 
 width: 100%;
 border-radius: 50%;
@@ -101,6 +105,12 @@ margin-top: 20px
 
 .main-content {
     padding: 40px;
+    background: url('../images/cactus.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+width:100%;
 }
 .paragraph-content {
     font-family: Crimson Text, sans-serif;

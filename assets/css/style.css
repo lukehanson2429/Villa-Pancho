@@ -42,7 +42,7 @@
     position: relative;
 }
 
-.opaque-overlay {
+.opaque-overlay-callout {
     position: absolute;
     top: 0;
     left: 0;
@@ -103,7 +103,7 @@ border-radius: 50%;
 margin-top: 20px
 }
 
-.main-content {
+.main-content-1 {
     padding: 40px;
     background: url('../images/cactus.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -111,6 +111,22 @@ margin-top: 20px
 -o-background-size: cover;
 background-size: cover;   
 width:100%;
+
+position: relative;
+}
+
+.main-content-2 {
+    padding: 40px;
+    background-color: #ffc800;
+}
+
+.opaque-overlay-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 .paragraph-content {
     font-family: Crimson Text, sans-serif;

@@ -89,6 +89,13 @@
     background-color: #ffc800;
 }
 
+
+.offers-img img { 
+width: 100%;
+border-radius: 50%;
+margin-top: 20px
+}
+
 .main-content {
     padding: 40px;
 }

@@ -57,7 +57,7 @@
     padding-top: 0px;
     letter-spacing: 0.05em;
     color: #468058;
-    text-shadow: 0px 4px 4px rgba(6, 44, 1, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*---Code used from tutorial and adjusted to suit my project: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
@@ -86,11 +86,15 @@
 
 .welcome {
     padding: 40px;
-    background-color: #ff6105;
+    background-color: #ffc800;
 }
 
+.main-content {
+    padding: 40px;
+}
 .paragraph-content {
     font-family: Crimson Text, sans-serif;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -102,7 +106,7 @@ letter-spacing: 0.05em;
     font-family: "Playfair Display", sans-serif;
     letter-spacing: 0.05em;
     padding-bottom: 5px;
-    font-weight: 
+    text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
 }
 
 .testimonials {

@@ -172,6 +172,11 @@ letter-spacing: 0.05em;
     background-color: #ffc800;
 }
 
+.brand-footer {
+    font-family: "Frijole", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .footer-text-address {
 font-family: Crimson Text, sans-serif;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);

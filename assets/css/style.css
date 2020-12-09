@@ -93,6 +93,12 @@
     background-color: #ffc800;
 }
 
+.origins-section {
+    padding-right: 40px;
+    padding-left: 0px;
+
+}
+
 .contact-icon {
     color: #ffc800;
     transition: all 0.35s ease-in-out;
@@ -144,6 +150,7 @@ font-weight: normal;
 font-size: 20px;
 line-height: 30px;
 letter-spacing: 0.05em;
+padding
 }
 
 .sub-headings {

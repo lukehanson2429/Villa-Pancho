@@ -98,8 +98,9 @@
 }
 
 .origins-col {
-    background-color: rgba(255, 200, 0, 0.1);
-    border: solid;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: groove;
+    border-color: rgba(255, 200, 0, 0.5);
     border-radius: 25px;
     radius: 10%;
     padding: 20px;
@@ -107,8 +108,9 @@
 }
 
 .party-col {
-    background-color: rgba(255, 200, 0, 0.1);
-    border: solid;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: groove;
+    border-color: rgba(255, 200, 0, 0.5);
     border-radius: 25px;
     radius: 10%;
     padding: 20px;

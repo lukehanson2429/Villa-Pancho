@@ -260,6 +260,10 @@ letter-spacing: 0.05em;
 
 @media (max-width: 576px) { 
 
+.navbar-brand {
+    font-size: 28px;
+}
+
 .origins-col {
     margin-bottom: 20px;
 
@@ -268,6 +272,10 @@ letter-spacing: 0.05em;
 .party-col {
     margin-top: 20px;
 
+}
+
+.footer-padding {
+    padding-top: 20px;
 }
 
  }

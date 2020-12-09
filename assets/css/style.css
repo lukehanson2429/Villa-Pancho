@@ -93,9 +93,25 @@
     background-color: #ffc800;
 }
 
-.origins-section {
-    padding-right: 40px;
-    padding-left: 0px;
+.welcome-col {
+    padding: 0px;
+}
+
+.origins-col {
+    background-color: rgba(255, 200, 0, 0.1);
+    border: solid;
+    border-radius: 25px;
+    radius: 10%;
+    padding: 20px;
+
+}
+
+.party-col {
+    background-color: rgba(255, 200, 0, 0.1);
+    border: solid;
+    border-radius: 25px;
+    radius: 10%;
+    padding: 20px;
 
 }
 

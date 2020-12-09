@@ -253,3 +253,43 @@ font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.05em;
 }
+
+/*---Media Queries---*/
+
+@media (max-width: 576px) { 
+
+.origins-col {
+    margin-bottom: 20px;
+
+}
+
+.party-col {
+    margin-top: 20px;
+
+}
+
+ }
+
+ @media (max-width: 768px) {
+   .origins-col {
+    margin-bottom: 20px;
+
+}
+
+.party-col {
+    margin-top: 20px;
+
+}
+}
+
+@media (min-width: 768px) {
+   .origins-col {
+    margin: 20px;
+
+}
+
+.party-col {
+    margin: 20px;
+
+}
+}

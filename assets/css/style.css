@@ -264,6 +264,14 @@ letter-spacing: 0.05em;
     font-size: 28px;
 }
 
+.jumbotron h2 {
+    font-size: 48px;
+}
+
+.jumbotron .lead {
+    font-size: 20px;
+}
+
 .origins-col {
     margin-bottom: 20px;
 

@@ -153,7 +153,8 @@ position: relative;
 }
 
 .main-content-2 {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #ffc800;
 }
 
@@ -173,7 +174,6 @@ font-weight: normal;
 font-size: 20px;
 line-height: 30px;
 letter-spacing: 0.05em;
-padding
 }
 
 .sub-headings {

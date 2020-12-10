@@ -129,11 +129,16 @@
     color: #000000;
 }
 
-.offers-img img { 
-width: 100%;
-border-radius: 50%;
-margin-top: 20px
+.offers-img {
+    margin: auto;
+    display: block;
 }
+
+.offers-img img { 
+border-radius: 50%;
+}
+
+
 
 .main-content-1 {
     padding: 40px;

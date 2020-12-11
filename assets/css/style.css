@@ -46,6 +46,22 @@
     position: relative;
 }
 
+.calloutimage-container-menu {
+    height: 25vh;
+
+    background: url('../images/menu-callout.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .opaque-overlay-callout {
     position: absolute;
     top: 0;

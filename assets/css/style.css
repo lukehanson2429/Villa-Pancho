@@ -30,7 +30,7 @@
 
 /*---Callout Image Brand---*/
 
-.calloutimage-container {
+.calloutimage-container-home {
     height: 100vh;
 
     background: url('../images/mexican-food.jpg') no-repeat center center fixed;

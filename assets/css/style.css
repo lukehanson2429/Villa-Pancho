@@ -222,13 +222,13 @@ letter-spacing: 0.05em;
     padding-bottom: 40px;
 }
 
-.food-list {
+.menu-list {
 padding-top: 20px;
 padding-left: 0px;
 line-height: 30px;
 }
 
-.food-list li {
+.menu-list li {
     font-family: Crimson Text, sans-serif;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 font-style: normal;
@@ -239,7 +239,7 @@ margin-bottom: 1.5em;
 list-style-type: none;
 }
 
-.food-list i {
+.menu-list i {
     font-family: Crimson Text, sans-serif;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 font-style: normal;

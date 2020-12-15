@@ -222,6 +222,10 @@ letter-spacing: 0.05em;
     padding-bottom: 40px;
 }
 
+.menu-col {
+    padding: 20px;
+}
+
 .menu-list {
 padding-top: 20px;
 padding-left: 0px;

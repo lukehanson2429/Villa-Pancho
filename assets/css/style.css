@@ -68,7 +68,7 @@
 
 .menu-header {
     font-family: "Playfair Display", sans-serif;
-    padding: 20px;
+    padding: 10px;
     letter-spacing: 0.05em;
     color: #000000;
     -webkit-text-stroke-width: 0.25px;
@@ -186,7 +186,7 @@ letter-spacing: 0.05em;
 }
 
 .menu-content {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 1px;
     background: url('../images/cactus-menu.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;

@@ -185,7 +185,8 @@ letter-spacing: 0.05em;
 }
 
 .menu-content {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 1px;
     background: url('../images/cactus-menu.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;

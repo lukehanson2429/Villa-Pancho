@@ -68,6 +68,7 @@
 
 .menu-header {
     font-family: "Playfair Display", sans-serif;
+    padding: 20px;
     letter-spacing: 0.05em;
     color: #000000;
     -webkit-text-stroke-width: 0.25px;

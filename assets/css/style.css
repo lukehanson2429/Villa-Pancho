@@ -200,8 +200,9 @@ position: relative;
 
 .menu-col {
     background-color: rgba(0, 0, 0, 0.1);
-    border: groove;
+    border: dashed;
     border-color: rgba(255, 200, 0, 0.5);
+    border-width: 2px;
     border-radius: 25px;
 }
 

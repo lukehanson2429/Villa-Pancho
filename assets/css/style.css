@@ -68,6 +68,7 @@
 
 .menu-header {
     font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
     padding: 10px;
     letter-spacing: 0.05em;
     color: #000000;
@@ -237,6 +238,7 @@ letter-spacing: 0.05em;
 
 .sub-headings {
     font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
     letter-spacing: 0.05em;
     padding-bottom: 5px;
     text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);

@@ -242,6 +242,7 @@ letter-spacing: 0.05em;
     font-family: "Playfair Display", sans-serif;
     letter-spacing: 0.05em;
     text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
+    padding-top: 20px;
 }
 
 .testimonials {

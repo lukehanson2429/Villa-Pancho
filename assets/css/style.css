@@ -206,6 +206,10 @@ position: relative;
     border-radius: 25px;
 }
 
+.menu-hr {
+    width: 50%;
+}
+
 .menu-list {
 padding-left: 0px;
 line-height: 30px;

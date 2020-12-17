@@ -47,7 +47,7 @@
     position: relative;
 }
 .calloutimage-container-contact {
-    height: 100vh;
+    height: 100%;
 
     background: url('../images/contact.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;

@@ -377,6 +377,10 @@ letter-spacing: 0.05em;
     font-size: 28px;
 }
 
+.jumbotron  {
+    padding-bottom: 200px;
+}
+
 .jumbotron h2 {
     font-size: 48px;
 }

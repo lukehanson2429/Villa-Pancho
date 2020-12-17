@@ -46,6 +46,21 @@
 
     position: relative;
 }
+.calloutimage-container-contact {
+    height: 100vh;
+
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 .opaque-overlay-callout {
     position: absolute;
     top: 0;

@@ -9,8 +9,10 @@
         <title>Villa Pancho | Mexican Restaurant & Bar</title>
     </head>
     <body>
+        <!--Beginning of NavBar Section-->
+
+            <!--Navbar based on Bootstrap 4 Navbar template and adjusted to suit my project-->
         <header>
-            <!--NavBar-->
             <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
                 <a class="navbar-brand" href="index.html">Villa Pancho <img src="assets/images/sombrero-logo.png" alt="Sombrero" height="80" width="80" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,40 +33,45 @@
                 </div>
             </nav>
         </header>
-<div class="container-fluid calloutimage-container-contact">
+        <!--End of NavBar Section-->
+
+        <!--Beginning of Form Section-->
+
+        <!--Form based on Bootrap 4 form templates & adjusted to suit my project - https://getbootstrap.com/docs/4.0/components/forms/ -->
+<div class="container-fluid callout-image-container contact-image">
                 <div class="opaque-overlay-callout">&nbsp;</div>
                         <form>
 <div class="row justify-content-center">
     <div class="col-md-8">
     <div class="text-center contact-header">
                             <h2>Make a Booking</h2>
-                            <hr class="contact-hr">
+                            <hr class="light-hr">
                         </div>
                     </div>
     <div class="col-md-6">
                         
                             <div class="form-group">
-    <label for="first" class="sub-headings-contact">First Name</label>
+    <label for="first" class="headings contact-font">First Name</label>
     <input type="text" class="form-control" id="first" placeholder="First Name">
   </div>
   </div>
   <div class="col-md-6">
                             <div class="form-group">
-    <label for="last" class="sub-headings-contact">Last Name</label>
+    <label for="last" class="headings contact-font">Last Name</label>
     <input type="text" class="form-control" id="last" placeholder="Last Name">
   </div>
   </div>
     <div class="col-md-12">
   <div class="form-group">
-    <label for="phone-number" class="sub-headings-contact">Phone Number</label>
+    <label for="phone-number" class="headings contact-font">Phone Number</label>
     <input type="tel" class="form-control" id="phone-number" placeholder="Phone Number">
   </div>
   <div class="form-group">
-    <label for="email" class="sub-headings-contact">Email address</label>
+    <label for="email" class="headings contact-font">Email address</label>
     <input type="email" class="form-control" id="email" placeholder="Email Address">
   </div>
   <div class="form-group">
-    <label for="booking" class="sub-headings-contact">For How Many</label>
+    <label for="booking" class="headings contact-font">For How Many</label>
     <select class="form-control" id="booking">
       <option>1</option>
       <option>2</option>
@@ -119,7 +126,7 @@
     </select>
   </div>
   <div class="form-group">
-    <label for="booking-details" class="sub-headings-contact">Booking Detail</label>
+    <label for="booking-details" class="headings contact-font">Booking Detail</label>
     <textarea class="form-control" id="booking details" rows="6" placeholder="Booking requirements / Special dietary requirements"></textarea>
   </div>
   <div class="text-center">
@@ -129,11 +136,10 @@
 </div>
 </form>    
 </div>
-                    
+     <!--End of Form Section-->               
             
-
+<!--Beginning of Footer section-->
         <footer>
-            <!--Footer section-->
             <div class="container-fluid footer">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 footer-padding text-center">
@@ -144,9 +150,9 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 footer-padding text-center">
-                        <div class="sub-headings">
+                        <div class="headings">
                             <h4>Address</h4>
-                            <hr class="menu-hr">
+                            <hr class="dark-hr">
                         </div>
                         <div class="footer-text-address">
                             <p>144 Market Street</p>
@@ -157,9 +163,9 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 footer-padding text-center">
-                        <div class="sub-headings">
+                        <div class="headings">
                             <h4>Opening Times</h4>
-                            <hr class="menu-hr">
+                            <hr class="dark-hr">
                         </div>
                         <div class="footer-text-times">
                             <p>Monday - Thursday</p>
@@ -171,9 +177,9 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 footer-padding text-center">
-                        <div class="sub-headings">
+                        <div class="headings">
                             <h4>Join Us On Social</h4>
-                            <hr class="menu-hr">
+                            <hr class="dark-hr">
                         </div>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
@@ -203,8 +209,9 @@
                 </div>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--End of Footer section-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>

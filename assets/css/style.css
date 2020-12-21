@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Frijole&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*----Navbar----*/
+/*----Navbar index, menu & contact.html----*/
 
 .navbar-brand {
     font-family: "Frijole", sans-serif;
@@ -29,32 +29,30 @@
     letter-spacing: 0.05em;
 }
 
-/*---Callout Image Brand - Home & Menu---*/
+/*---Images - Home, Menu & contact.html---*/
 
-.calloutimage-container-home {
+.home-image {
     height: 100vh;
 
     background: url('../images/mexican-food.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
 }
-.calloutimage-container-contact {
+
+.menu-image {
+    padding-top: 20px;
+    padding-bottom: 1px;
+    background: url('../images/cactus-menu.jpg') no-repeat center center fixed;
+    width:100%;
+
+}
+
+.contact-image {
     height: 100%;
 
     background: url('../images/contact.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +62,17 @@
    padding-top: 20px;
    padding-bottom: 40px;
 }
+
+.callout-image-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    position: relative;
+}
+
 .opaque-overlay-callout {
     position: absolute;
     top: 0;
@@ -72,6 +81,8 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/*---Headers/Paragraphs font styles - Home, Menu & contact.html---*/
 
 .jumbotron {
     background-color: transparent;
@@ -82,15 +93,20 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.menu-header {
+.headings {
     font-family: "Playfair Display", sans-serif;
     font-weight: bold;
-    padding: 10px;
     letter-spacing: 0.05em;
-    color: #000000;
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: #ffc800;
+    padding-bottom: 5px;
+    text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
 }
+
+.contact-font {
+    font-size: 18px;
+    color: #e4e4e4;
+    font-weight: lighter;
+}
+
 
 .contact-header {
     font-family: "Playfair Display", sans-serif;
@@ -98,9 +114,17 @@
     padding: 10px;
     letter-spacing: 0.05em;
     color: #e4e4e4;
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: #ffc800;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.paragraph-content {
+    font-family: Crimson Text, sans-serif;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
 }
 
 /*---Code used from tutorial and adjusted to suit my project: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
@@ -137,7 +161,7 @@
 }
 
 .origins-col {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     border: groove;
     border-color: rgba(255, 200, 0, 1);
     border-radius: 25px;
@@ -146,7 +170,7 @@
 }
 
 .party-col {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     border: groove;
     border-color: rgba(255, 200, 0, 1);
     border-radius: 25px;
@@ -195,15 +219,6 @@ position: relative;
     padding-bottom: 40px;
     background-color: #ffc800;
 }
-
-.opaque-overlay-main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-}
 .paragraph-content {
     font-family: Crimson Text, sans-serif;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
@@ -214,36 +229,15 @@ line-height: 30px;
 letter-spacing: 0.05em;
 }
 
-.menu-content {
-    padding-top: 20px;
-    padding-bottom: 1px;
-    background: url('../images/cactus-menu.jpg') no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
-width:100%;
-
-
-position: relative;
-}
 
 .menu-col {
-    background-color: rgba(0, 0, 0, 0.1);
-    border: dashed;
-    border-color: rgba(255, 200, 0, 0.5);
-    border-width: 2px;
+    background-color: rgba(255, 200, 0, 0.1);
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-width: 1px;
     border-radius: 25px;
 }
 
-.menu-hr {
-    width: 50%;
-}
-
-.contact-hr {
-    background-color: #ffffff;
-    width: 50%;
-}
 .menu-list {
 padding-left: 0px;
 line-height: 30px;
@@ -269,33 +263,10 @@ font-size: 14px;
 letter-spacing: 0.05em;
 }
 
-.sub-headings {
-    font-family: "Playfair Display", sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    padding-bottom: 5px;
-    text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
-}
-
-.sub-headings-menu {
-    font-family: "Playfair Display", sans-serif;
-    letter-spacing: 0.05em;
-    text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
-    padding-top: 20px;
-}
-
-.sub-headings-contact {
-    font-family: "Playfair Display", sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    color: #e4e4e4;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
 /*---Carousel---*/
 
-.testimonials {
+.testimonial {
 height: 100%;
     background: url('../images/testimonials.jpg') no-repeat center center;
 -webkit-background-size: cover;
@@ -394,6 +365,18 @@ font-weight: normal;
 font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.05em;
+}
+
+/*---Horizontal Rules index, menu & contact.html---*/
+
+.dark-hr {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.light-hr {
+    width: 50%;
+    background-color: rgba(228, 228, 228, 0.2);
 }
 
 /*---Media Queries---*/

@@ -236,6 +236,10 @@
 
 /*---Menu Items menu.html---*/
 
+.menu-padding {
+    padding-top: 20px;
+}
+
 .menu-col {
     background-color: rgba(255, 200, 0, 0.1);
     border: solid;

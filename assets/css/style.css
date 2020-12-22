@@ -17,6 +17,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
+}
 
 .navbar-custom {
     background-color: #ffc800;
@@ -29,7 +33,7 @@
     letter-spacing: 0.05em;
 }
 
-/*---Images - Home, Menu & contact.html---*/
+/*---Main Callout Images - Home, Menu & contact.html---*/
 
 .home-image {
     height: 100vh;
@@ -84,21 +88,22 @@
 
 /*---Headers/Paragraphs font styles - Home, Menu & contact.html---*/
 
-.jumbotron {
-    background-color: transparent;
-    font-family: "Playfair Display", sans-serif;
-    padding-top: 0px;
-    letter-spacing: 0.05em;
-    color: #e4e4e4;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .headings {
     font-family: "Playfair Display", sans-serif;
     font-weight: bold;
     letter-spacing: 0.05em;
     padding-bottom: 5px;
     text-shadow: 0px 1px 1px rgba(6, 44, 1, 0.5);
+}
+
+.paragraph-content {
+    font-family: Crimson Text, sans-serif;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
 }
 
 .contact-font {
@@ -117,16 +122,27 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.paragraph-content {
-    font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-letter-spacing: 0.05em;
+/*---Horizontal Rules index, menu & contact.html---*/
+
+.dark-hr {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
+.light-hr {
+    width: 50%;
+    background-color: rgba(228, 228, 228, 0.2);
+}
+
+/*---Home Page Callout section (index.html)---*/
+.jumbotron {
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    padding-top: 0px;
+    letter-spacing: 0.05em;
+    color: #e4e4e4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 /*---Code used from tutorial and adjusted to suit my project: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
 
 .logo-box{
@@ -149,7 +165,7 @@ letter-spacing: 0.05em;
     font-weight: lighter;
 }
 
-/*---Welcome & Main Content---*/
+/*---Welcome & Main Content index.html---*/
 
 .welcome {
     padding: 40px;
@@ -199,8 +215,6 @@ letter-spacing: 0.05em;
 border-radius: 50%;
 }
 
-
-
 .main-content-1 {
     padding: 40px;
     color: #e4e4e4;
@@ -219,16 +233,8 @@ position: relative;
     padding-bottom: 40px;
     background-color: #ffc800;
 }
-.paragraph-content {
-    font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-letter-spacing: 0.05em;
-}
 
+/*---Menu Items menu.html---*/
 
 .menu-col {
     background-color: rgba(255, 200, 0, 0.1);
@@ -239,15 +245,15 @@ letter-spacing: 0.05em;
 }
 
 .menu-list {
+font-family: Crimson Text, sans-serif;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+font-style: normal;
+font-weight: normal;
 padding-left: 0px;
 line-height: 30px;
 }
 
 .menu-list li {
-    font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
 font-size: 24px;
 letter-spacing: 0.05em;
 margin-bottom: 1.5em;
@@ -255,16 +261,12 @@ list-style-type: none;
 }
 
 .menu-list i {
-    font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
 font-size: 14px;
 letter-spacing: 0.05em;
 }
 
 
-/*---Carousel---*/
+/*---Carousel testimonials index.html---*/
 
 .testimonial {
 height: 100%;
@@ -286,6 +288,8 @@ position: relative;
 .carousel-control-next{
       bottom: 60%;
 }
+
+/*---Contact buttons contact.html---*/
 
 .btn-custom {
     background-color: #ffc800; 
@@ -313,7 +317,7 @@ position: relative;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.footer-text-address {
+.footer-text {
 font-family: Crimson Text, sans-serif;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 font-style: normal;
@@ -323,14 +327,17 @@ line-height: 20px;
 letter-spacing: 0.05em;
 }
 
-.footer-text-times {
-font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
+.line-height-address {
+line-height: 20px;
+}
+
+.line-height-times {
 line-height: 15px;
-letter-spacing: 0.05em;
+}
+
+.line-height-social {
+line-height: 20px;
+
 }
 
 .social-links {
@@ -355,28 +362,6 @@ letter-spacing: 0.05em;
 
 .social-links li a i:hover {
     background: #468058;
-}
-
-.footer-text-social {
-font-family: Crimson Text, sans-serif;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0.05em;
-}
-
-/*---Horizontal Rules index, menu & contact.html---*/
-
-.dark-hr {
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.light-hr {
-    width: 50%;
-    background-color: rgba(228, 228, 228, 0.2);
 }
 
 /*---Media Queries---*/

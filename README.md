@@ -60,14 +60,15 @@ have a professional and credible image and it is hoped that the concept can be r
 
 Initial Wireframe designs made on Figma:
 
-[Desktop - Home Page](assets/images/home-desktop.png)
-[Desktop - Menu Page](assets/images/menu-desktop.png)
-[Desktop - Contact Page](assets/images/contact-desktop.png)
+[Desktop - Home Page](assets/wireframes/home-desktop.png) <br>
+[Desktop - Menu Page](assets/wireframes/menu-desktop.png) <br>
+[Desktop - Contact Page](assets/wireframes/contact-desktop.png) <br>
 
-[Mobile - Home Page](assets/images/home-mobile.png)
-[Mobile - Menu Page](assets/images/menu-mobile.png)
-[Mobile - Contact Page](assets/images/contact-mobile.png)
+[Mobile - Home Page](assets/wireframes/home-mobile.png) <br>
+[Mobile - Menu Page](assets/wireframes/menu-mobile.png) <br>
+[Mobile - Contact Page](assets/wireframes/contact-mobile.png) <br>
 
+The finished design is very similar to my initial Wireframe designs. The main change is that the booking form on the contact page has been improved with additional fields to fill in.
 
 ## Features
 
@@ -76,7 +77,7 @@ Initial Wireframe designs made on Figma:
     * Dropdown hamburger menu on mobile devices using Bootsrap.
     * Bootstrap Carousel for reviews/testiomonials of the restaurant.
     * Font AwesomevSocial/Interactive Links & Buttons.
-    * Bootstrap Booking Form on Contact page.
+    * Bootstrap Booking Form on Contact page. Fields are required to fill in otherwise submit button will not work.
 
 ### Features left to implement
 
@@ -204,7 +205,34 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+### content
+
+* All Content was written by the developer.
+
 ### Code
+
+* Bootstrap Navbar & Carousel based on boostrap templates & significantly changed to suit my website.
+* Callout image brand on home page code based on whiskey drop mini project and significantly changed to suit my website.
+* UCD Resume mini project was used as inspiration for footer code, especially social links.
+* Stack Overflow & W3Schools
+
+### Media 
+
+* Sombrero logo used within header, footer & home page hero image from [pngwing](https://www.pngwing.com/en/free-png-kylge)
+* Home Page Main Hero Image from [pixabay](https://pixabay.com/photos/mexican-food-pepper-lemon-food-5073328/)
+* Home Page Cactus Image for Origins & Party section from [pexels](https://www.pexels.com/photo/nature-sky-green-cactus-110437/)
+* Home Page Corona Image for weekly offers section from [unsplash](https://unsplash.com/photos/ltUnkERXFec)
+* Home Page Chilli Image for testimonials section from [unsplash](https://unsplash.com/photos/H8PIlfAA7bs)
+* Menu Page Cactus Image from [unsplash](https://unsplash.com/photos/OtmuZ0O5nVQ)
+* Contact Page Bell Pepper Image from [unsplash](https://unsplash.com/photos/Bz_vb0bjBe0)
+
+### Acknowledgements
+
+
+
+
+
+
 
 
 

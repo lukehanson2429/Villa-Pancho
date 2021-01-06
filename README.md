@@ -58,6 +58,17 @@ have a professional and credible image and it is hoped that the concept can be r
 
 ## WireFrames
 
+Initial Wireframe designs made on Figma:
+
+[Desktop - Home Page](assets/images/home-desktop.png)
+[Desktop - Menu Page](assets/images/menu-desktop.png)
+[Desktop - Contact Page](assets/images/contact-desktop.png)
+
+[Mobile - Home Page](assets/images/home-mobile.png)
+[Mobile - Menu Page](assets/images/menu-mobile.png)
+[Mobile - Contact Page](assets/images/contact-mobile.png)
+
+
 ## Features
 
 * Responsive on all devices.
@@ -76,6 +87,7 @@ have a professional and credible image and it is hoped that the concept can be r
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) via Bootstrap JavaScript plugins built on jQuery
 
 ### Frameworks, Libraries & Programs Used
 
@@ -148,25 +160,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lukehanson2429/Villa-Pancho)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://lukehanson2429.github.io/Villa-Pancho/index.html) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lukehanson2429/Villa-Pancho)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lukehanson2429/Villa-Pancho)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash

@@ -297,7 +297,9 @@
     background-color: #ffc800;
     border-color: #ffc800;
     color: #000000;
+    font-family: Crimson Text, sans-serif;
     font-size: 18px;
+    letter-spacing: 0.05em;
 }
 
 .btn-custom:hover {

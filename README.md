@@ -149,6 +149,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * The Website was tested on Google Chrome, Mozilla Firefox, Safari Browzer & was fully functioning.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 6/7/8, moto g4, ipad/ipad pro, galaxy s5. All functioning properly with text/images loading & links working.
 
+* Lighthouse used within Chrome Dev tools to assess performance on desktop & mobile display, results below:
+
+#### Desktop
+<img src="assets/images/desktoplighthouse.png">
+
+#### Mobile
+<img src="assets/images/mobilelighthouse.png">
+
 ### Known bugs 
 
 * Navbar brand too large when on a mobile display and streched off the screen. To resolve this I set the font size too 28px using css media queries up to a max width of 576px.

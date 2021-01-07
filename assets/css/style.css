@@ -206,6 +206,8 @@
     color: #468058;
 }
 
+/*---Code below taken from W3Schools to center image https://www.w3schools.com/css/tryit.asp?filename=trycss_align_image ---*/ 
+
 .offers-img {
     margin: auto;
     display: block;

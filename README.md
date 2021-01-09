@@ -196,7 +196,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Credits
 
-### content
+### Content
 
 * All Content was written by the developer.
 

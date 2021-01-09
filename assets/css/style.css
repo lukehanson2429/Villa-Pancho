@@ -42,6 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 140px;
 }
 
 .menu-image {
@@ -62,7 +63,7 @@
 
     position: relative;
 
-    padding-top: 20px;
+    padding-top: 120px;
     padding-bottom: 40px;
 }
 
@@ -206,7 +207,7 @@
     color: #468058;
 }
 
-/*---Code below taken from W3Schools to center image https://www.w3schools.com/css/tryit.asp?filename=trycss_align_image ---*/ 
+/*---Code below taken from W3Schools to center image https://www.w3schools.com/css/tryit.asp?filename=trycss_align_image ---*/
 
 .offers-img {
     margin: auto;
@@ -237,6 +238,10 @@
 }
 
 /*---Menu Items menu.html---*/
+
+.menu-navbar-padding {
+    padding-top: 120px;
+}
 
 .menu-padding {
     padding-top: 20px;
@@ -375,13 +380,19 @@
 
 /*---Media Queries---*/
 
+@media (max-width: 452px) {
+    .contact-image {
+        padding-top: 150px;
+    }
+
+    .menu-navbar-padding {
+        padding-top: 160px;
+    }
+}
+
 @media (max-width: 576px) {
     .navbar-brand {
         font-size: 28px;
-    }
-
-    .jumbotron {
-        padding-bottom: 200px;
     }
 
     .jumbotron h2 {

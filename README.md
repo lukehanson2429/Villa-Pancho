@@ -167,7 +167,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known bugs 
 
 * Navbar brand too large when on a mobile display and streched off the screen. To resolve this I set the font size too 28px using css media queries up to a max width of 576px.
-* Jumbotron on hero image was not centered on a mobile display and was too large. Adjusted using media queries to resolve this up to a max width of 576px.
+* Issues with padding when viewed on a mobile device for contact-image & menu-navbar-padding. Adjusted using media queries up to a max width of 452px to resolve this.
 * Incorrect padding when viewed in mobile formats for origins & party col classes. Adjusted using media queries to resolve this up to a max width of 576px.
 
 ## Deployment
